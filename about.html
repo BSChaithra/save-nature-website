@@ -1,0 +1,153 @@
+<html>
+    <head>
+        <title>About</title>
+        <link href="page.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link href="images/favicon.png" rel="icon" type="image/x-icon">
+        <style>
+            footer {
+                margin-top: 250px;
+            }
+        </style>
+    </head>
+    <body id="container">
+        <header id="topHeader">
+            <div class="logo"><img src="images/saveNature.png" alt="saveNature" title="Save nature" onclick="window.location.href='page.html'" /></div>
+            <nav class="navigation-bar">
+			<div class="display-small-screen" onclick="displayNavBar()"><img src="images/SmallScreenMenuIcon.png"  alt="small-screen-menu-icon" /></div>
+              <div id="onlySmallScreen">
+			  <div id="close-icon"><span style="color: white; cursor: pointer" onclick="closeMenu()">&#10006;</span></div>
+			  <ul id="small">
+                    <li><a href="page.html" class="clickableLinks">Home</a></li>
+                    <li><a href="#" class="clickableLinks">About Us</a></li>
+                    <li class="dropdown"><a href="about.html#campaigns-container" class="clickableLinks">More</a>
+					<div class="dropdown-content">
+					   <p><a href="about.html#goal">Our Goal</a></p>
+					   <p><a href="about.html#campaigns-container">Campaigns</a></p>
+					</div>
+					</li>
+               </ul>
+			  
+			  </div>
+			
+			
+			
+                <ul id="large">
+                    <li><a href="page.html" class="clickableLinks">Home</a></li>
+                    <li><a href="about.html" class="clickableLinks">About Us</a></li>
+                    <li><a href="#campaigns-container" class="clickableLinks">Campaigns</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="img-container">
+                <img src="images/about-tree.jpg" alt="about-img" id="about-img" />
+            </div>
+
+            <section id="goal">
+                <h1 class="about-heading">Our Goal</h1>
+                <p class="aboutParagraph">
+                    The primary goal of "Save Nature" campaigns is to protect and restore terrestrial ecosystems, manage forests sustainably, combat desertification, and halt and reverse land degradation and biodiversity loss. This aligns
+                    with the Sustainable Development Goal 15, "Life on Land," which emphasizes the importance of healthy ecosystems and the services they provide.
+                </p>
+                <p class="aboutParagraph">
+                    These goals are crucial for ensuring a healthy planet and the well-being of future generations. By working together, individuals, communities, governments, and organizations can make a difference in protecting and
+                    restoring our natural world.
+                </p>
+
+                <p class="aboutParagraph">
+                    To create awareness among people we conduct campaigns about save trees, plant trees. Many organizations have been involved in the campaigns that we conduct every year.
+                </p>
+            </section>
+
+            <section id="counter-container">
+                <div id="counter1" class="counter">
+                    <span class="number" id="number1"></span>
+                    <p class="info">Campaigns</p>
+                </div>
+                <div id="counter2" class="counter">
+                    <span class="number" id="number2"></span>
+                    <p class="info">Planting count</p>
+                </div>
+                <div id="counter3" class="counter">
+                    <span class="number" id="number3"></span>
+                    <p class="info">Volunteers involved</p>
+                </div>
+            </section>
+        </main>
+        <hr style="width: 90%;" />
+        <section id="campaigns-container">
+            <h1 class="about-campaigns">Campaigns</h1>
+            <p class="aboutParagraph">
+                Our save nature campaign promotes environmental awareness and encourages actions to protect and preserve the planet's resources and ecosystems. It aims to inspire individuals and communities to adopt sustainable practices
+                and support organizations working to conserve nature.
+            </p>
+            <p class="aboutParagraph">
+                Campaigns use various media, including social media, posters, and community events, to explain the importance of environmental conservation and the threats facing nature. Campaigns often focus on particular environmental
+                concerns, such as climate change, deforestation, pollution, or biodiversity loss.
+            </p>
+            <p class="aboutParagraph">
+                Campaigns showcase successful conservation efforts and the positive impact of environmental action. Campaigns encourage people to reduce their environmental impact by adopting sustainable practices like reducing, reusing,
+                and recycling.
+            </p>
+            <p class="aboutParagraph">
+                Campaigns encourage individuals to make conscious choices about the products they buy and the resources they use. Campaigns highlight the work of conservation organizations and encourage donations and volunteering. Campaigns
+                can pressure governments and institutions to adopt policies that promote environmental protection. Campaigns can encourage businesses to adopt environmentally responsible practices.
+            </p>
+            <p class="aboutParagraph">Some of our effective campaigns are highlighted below</p>
+
+            <div id="campaigns-div">
+                <div class="card">
+                    <img src="images/home-plant.jpg" alt="home-plant" class="campaign-image" />
+                    <p class="campaign-paragraph">
+                        <b>At least one houseplant</b> can significantly enhance home decor and air quality. Plants absorb carbon dioxide and release oxygen, purifying indoor air. Studies suggest that being around plants can improve mood
+                        and reduce stress levels.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="images/gift-a-plant.jpg" alt="gift-a-plant" class="campaign-image" />
+                    <p class="campaign-paragraph">
+                        A <b>"Gift a Plant"</b> campaign can promote the idea of giving plants as thoughtful, lasting gifts. The campaign can highlight the positive aspects of plant gifting, such as bringing joy, improving air quality, and
+                        fostering a sense of well-being.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <img src="images/Corporate-plants.jpg" alt="Corporate-plants" class="campaign-image" />
+                    <p class="campaign-paragraph">
+                        <b>Plants in corporate environment</b> significantly enhance the employee well-being, increasing productivity, and creating a more positive atmosphere. They improve air quality, reduce stress, and even contribute to
+                        noise reduction.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <a href="#topHeader" title="Goto Top"><i class="fa fa-chevron-up"></i></a>
+        <footer class="footer-container">
+            <div class="contact">
+                <p>Contact Us:</p>
+                <p>9111000111</p>
+                <p><a href="javascript:void(0)" class="clickableLinks">Terms and Conditions</a></p>
+            </div>
+
+            <div class="copyright">
+               	<p style="margin:0; padding: 10px;">All the images used in this website are from <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer">Freepik</a></p>
+				<p style="padding: 10px; margin:0;">All the content used in this website are for demo purpose</p>
+			   <p style="padding: 10px; margin:0;">Created by Chaithra B S |  Copyright &copy; 2025 </p>
+				
+            </div>
+
+            <div class="address">
+                <address>
+                    <p>Building number 123,</p>
+                    <p>JM Complex</p>
+					<p>Temple street</p>
+                </address>
+            </div>
+        </footer>
+
+        <script src="about.js"></script>
+		<script src="common.js"></script>
+    </body>
+</html>
